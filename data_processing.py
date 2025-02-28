@@ -3,7 +3,6 @@ import os
 import logging
 from main import DataMigration, DatabaseConnector, DB_CONFIG
 
-# Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 if __name__ == "__main__":
