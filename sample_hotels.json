@@ -1,0 +1,94 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Luxury"
+        },
+        {
+            "id": 2,
+            "name": "Economy"
+        }
+    ],
+    "chains": [
+        {
+            "id": 1,
+            "name": "Hilton"
+        },
+        {
+            "id": 2,
+            "name": "Marriott"
+        }
+    ],
+    "hotels": [
+        {
+            "id": 31,
+            "name": "Hilton NYC",
+            "category_id": 1,
+            "chain_id": 1,
+            "location": "New York"
+        },
+        {
+            "id": 34,
+            "name": "Hilton LA",
+            "category_id": 1,
+            "chain_id": 1,
+            "location": "Los Angeles"
+        },
+        {
+            "id": 412,
+            "name": "Marriott SF",
+            "category_id": 1,
+            "chain_id": 2,
+            "location": "San Francisco"
+        },
+        {
+            "id": 512,
+            "name": "Marriott Chicago",
+            "category_id": 1,
+            "chain_id": 2,
+            "location": "Chicago"
+        },
+        {
+            "id": 521,
+            "name": "Hilton Miami",
+            "category_id": 1,
+            "chain_id": 1,
+            "location": "Miami"
+        },
+        {
+            "id": 123,
+            "name": "Economy Inn Dallas",
+            "category_id": 2,
+            "chain_id": 2,
+            "location": "Dallas"
+        },
+        {
+            "id": 7213,
+            "name": "Budget Stay Houston",
+            "category_id": 2,
+            "chain_id": 2,
+            "location": "Houston"
+        },
+        {
+            "id": 142,
+            "name": "Hilton Seattle",
+            "category_id": 1,
+            "chain_id": 1,
+            "location": "Seattle"
+        },
+        {
+            "id": 56,
+            "name": "Marriott Boston",
+            "category_id": 1,
+            "chain_id": 2,
+            "location": "Boston"
+        },
+        {
+            "id": 76,
+            "name": "Economy Lodge Denver",
+            "category_id": 2,
+            "chain_id": 2,
+            "location": "Denver"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Luxury"
+        },
+        {
+            "id": 2,
+            "name": "Economy"
+        }
+    ],
+    "chains": [
+        {
+            "id": 1,
+            "name": "Hilton"
+        },
+        {
+            "id": 2,
+            "name": "Marriott"
+        },
+        {
+            "id": 3,
+            "name": "Rixos"
+        }
+    ],
+    "hotels": [
+        {
+            "id": 101,
+            "name": "Hilton Istanbul Bosphorus",
+            "category_id": 1,
+            "chain_id": 1,
+            "location": "Istanbul"
+        },
+        {
+            "id": 102,
+            "name": "Rixos Premium Belek",
+            "category_id": 1,
+            "chain_id": 3,
+            "location": "Antalya"
+        },
+        {
+            "id": 103,
+            "name": "Marriott Ankara",
+            "category_id": 1,
+            "chain_id": 2,
+            "location": "Ankara"
+        },
+        {
+            "id": 104,
+            "name": "Hilton Izmir",
+            "category_id": 1,
+            "chain_id": 1,
+            "location": "Izmir"
+        },
+        {
+            "id": 105,
+            "name": "Rixos Downtown Antalya",
+            "category_id": 1,
+            "chain_id": 3,
+            "location": "Antalya"
+        },
+        {
+            "id": 106,
+            "name": "Budget Stay Cappadocia",
+            "category_id": 2,
+            "chain_id": 3,
+            "location": "Nevsehir"
+        },
+        {
+            "id": 107,
+            "name": "Economy Lodge Bursa",
+            "category_id": 2,
+            "chain_id": 2,
+            "location": "Bursa"
+        }
+    ]
+}
