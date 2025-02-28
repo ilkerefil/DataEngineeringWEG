@@ -23,7 +23,7 @@ class TestDataMigration(unittest.TestCase):
         sample_json = '{"categories": [{"id": 1, "name": "Luxury"}], "chains": [{"id": 1, "name": "Hilton"}], "hotels": [{"id": 1, "name": "Hilton NYC", "category_id": 1, "chain_id": 1, "location": "New York"}]}'
         self.migration.process_json(sample_json)
         
-        # Veriler database'e işlendi mi?
+        # Veriler database'e islendi mi?
         with self.db.conn.cursor() as cur:
             cur.execute("SELECT COUNT(*) FROM Category WHERE name = 'Luxury';")
             category_count = cur.fetchone()[0]
